@@ -1,0 +1,11 @@
+buildscript {
+    ext{
+        REPOSITORY_URL =  "https://maven.aliyun.com/repository/public"
+        RELEASE_URL =  "https://packages.aliyun.com/maven/repository/2248657-release-6PbX7L"
+        SNAPSHOT_URL =  "https://packages.aliyun.com/maven/repository/2248657-snapshot-y4h62x"
+
+        springBootVersion = '3.0.9'
+        springCloudVersion = '2022.0.3'
+        alibabaCloudVersion = '2022.0.0.0'
+    }
+}

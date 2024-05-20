@@ -29,6 +29,12 @@ java {
     withSourcesJar()
 }
 
+// 忽略 Javadoc 警告
+/*tasks.withType(Javadoc).configureEach {
+    options.addBooleanOption('Xdoclint:none', true)
+    options.addBooleanOption('quiet', true)
+}*/
+
 // 子模块自定义, 默认是开启
 bootJar {
     enabled = false

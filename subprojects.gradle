@@ -65,7 +65,7 @@ repositories {
 
 dependencyManagement {
     imports {
-        mavenBom "com.xu3au.cloud:spring-cloud-xu3au-dependencies:${xxf_version}"
+        mavenBom "com.xu3au.cloud:xu3au-dependencies:${xxf_version}"
     }
     resolutionStrategy { cacheChangingModulesFor 0, 'seconds' }
 }
